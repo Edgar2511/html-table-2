@@ -1,26 +1,25 @@
 .angry-grid {
   display: grid;
-  border: 0.5px solid #000;
-  grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
   gap: 0px;
-  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .angry-grid div {
   border: 0.5px solid #000;
 }
 
-.middle {
-  display: flex;
-  align-items: center;
+.angry-grid p,
+.angry-grid h3,
+.angry-grid h4 {
+  margin: 0;
 }
 
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 9px;
 }
 
 #item-0 {
@@ -109,56 +108,56 @@
   grid-column-end: 5;
 }
 #item-14 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 5;
   grid-row-end: 15;
   grid-column-end: 6;
 }
 #item-15 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 6;
   grid-row-end: 15;
   grid-column-end: 7;
 }
 #item-16 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 7;
   grid-row-end: 15;
   grid-column-end: 8;
 }
 #item-17 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 8;
   grid-row-end: 15;
   grid-column-end: 9;
 }
 #item-18 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 9;
   grid-row-end: 15;
   grid-column-end: 10;
 }
 #item-19 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 10;
   grid-row-end: 15;
   grid-column-end: 11;
 }
 #item-20 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 11;
   grid-row-end: 15;
   grid-column-end: 12;
 }
 #item-21 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 14;
   grid-column-start: 12;
   grid-row-end: 15;
@@ -339,56 +338,56 @@
   grid-column-end: 5;
 }
 #item-51 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 5;
   grid-row-end: 31;
   grid-column-end: 6;
 }
 #item-52 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 6;
   grid-row-end: 31;
   grid-column-end: 7;
 }
 #item-53 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 7;
   grid-row-end: 31;
   grid-column-end: 8;
 }
 #item-54 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 8;
   grid-row-end: 31;
   grid-column-end: 9;
 }
 #item-55 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 9;
   grid-row-end: 31;
   grid-column-end: 10;
 }
 #item-56 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 10;
   grid-row-end: 31;
   grid-column-end: 11;
 }
 #item-57 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 11;
   grid-row-end: 31;
   grid-column-end: 12;
 }
 #item-58 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 30;
   grid-column-start: 12;
   grid-row-end: 31;
@@ -461,70 +460,70 @@
   grid-column-end: 15;
 }
 #item-70 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 14;
   grid-row-end: 35;
   grid-column-end: 15;
 }
 #item-71 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 13;
   grid-row-end: 35;
   grid-column-end: 14;
 }
 #item-72 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 12;
   grid-row-end: 35;
   grid-column-end: 13;
 }
 #item-73 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 11;
   grid-row-end: 35;
   grid-column-end: 12;
 }
 #item-74 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 10;
   grid-row-end: 35;
   grid-column-end: 11;
 }
 #item-75 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 9;
   grid-row-end: 35;
   grid-column-end: 10;
 }
 #item-76 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 8;
   grid-row-end: 35;
   grid-column-end: 9;
 }
 #item-77 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 7;
   grid-row-end: 35;
   grid-column-end: 8;
 }
 #item-78 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 6;
   grid-row-end: 35;
   grid-column-end: 7;
 }
 #item-79 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 34;
   grid-column-start: 5;
   grid-row-end: 35;
@@ -646,25 +645,12 @@
   grid-column-end: 2;
 }
 
-#item-98 h4,
-#item-100 h4,
-#item-101 h4,
-#item-102 h4,
-#item-103 h4,
-#item-104 h4,
-#item-105 h4,
-#item-106 h4,
-#item-107 h4 {
-  transform: rotate(-90deg);
-}
-
 #item-99 {
   grid-row-start: 46;
   grid-column-start: 2;
   position: relative;
   grid-row-end: 47;
   grid-column-end: 5;
-  padding-left: 15px;
 }
 
 #item-100 {
@@ -800,7 +786,7 @@
   grid-column-end: 7;
 }
 #item-122 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 48;
   grid-column-start: 7;
   grid-row-end: 49;
@@ -813,28 +799,28 @@
   grid-column-end: 9;
 }
 #item-124 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 48;
   grid-column-start: 9;
   grid-row-end: 49;
   grid-column-end: 10;
 }
 #item-125 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 48;
   grid-column-start: 10;
   grid-row-end: 49;
   grid-column-end: 11;
 }
 #item-126 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 48;
   grid-column-start: 11;
   grid-row-end: 49;
   grid-column-end: 12;
 }
 #item-127 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 48;
   grid-column-start: 12;
   grid-row-end: 49;
@@ -871,28 +857,28 @@
   grid-column-end: 9;
 }
 #item-133 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 49;
   grid-column-start: 9;
   grid-row-end: 50;
   grid-column-end: 10;
 }
 #item-134 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 49;
   grid-column-start: 10;
   grid-row-end: 50;
   grid-column-end: 11;
 }
 #item-135 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 49;
   grid-column-start: 11;
   grid-row-end: 50;
   grid-column-end: 12;
 }
 #item-136 {
-  font-size: 22px;
+  font-size: 18px;
   grid-row-start: 49;
   grid-column-start: 12;
   grid-row-end: 50;
